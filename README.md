@@ -1,7 +1,7 @@
 # Amiga Workbench 1.0 Style Look For Labwc
 
 ## labwc + waybar
-![Screenshot](/labwc-screenshot.png "Title")
+![Screenshot](https://github.com/kbjji/Amiga_1.0_Style_For_labwc/blob/main/labwc-screeshot.png?raw=true)
 
 ## Config
 
