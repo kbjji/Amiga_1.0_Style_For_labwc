@@ -76,7 +76,7 @@ osd.bg.color: #FFFFFF
            "spacing": 5,
            "height": 40,
 	   "modules-left": ["wlr/taskbar"],
-           "modules-right": ["custom/pacman", "tray", "clock", "image#logout", "image#reboot", "image#poweroff"],
+           "modules-right": ["custom/weather", "tray", "clock", "image#logout", "image#reboot", "image#poweroff"],
            "wlr/taskbar": {
                 "format": "{icon} {title}",
                 "icon-theme": "Adwaita",
@@ -85,7 +85,7 @@ osd.bg.color: #FFFFFF
                 "on-click": "activate",
                 "on-click-middle": "close",
            },
-           "custom/pacman": {
+           "custom/weather": {
                 "format": "{} | ",
                 "interval": "21600",
                 "exec": "curl wttr.in/Busan?format=3",
