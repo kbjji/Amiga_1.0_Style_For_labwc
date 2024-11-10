@@ -158,11 +158,11 @@ then
 	RUN_CMD="sudo systemctl $COMMAND"
 elif [[ $COMMAND == "poweroff" ]]
 then
-	MASSSAGE='Would you like to shut down the system?'
+	MASSSAGE='Would you like to shutdown the system?'
 	RUN_CMD="sudo systemctl $COMMAND"
 elif [[ $COMMAND == "logout" ]]
 then
-	MASSSAGE='Would you like to shut down the logout'
+	MASSSAGE='Would you like to logout the session?'
 	[[ ${DESKTOP_SESSION} == "labwc" ]] && RUN_CMD="labwc -e"
 else
 	echo "$0 [reboot|poweroff]" && exit 0
