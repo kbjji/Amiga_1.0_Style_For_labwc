@@ -169,7 +169,7 @@ then
 	MASSSAGE='Would you like to logout the session?'
 	[[ ${DESKTOP_SESSION} == "labwc" ]] && RUN_CMD="labwc -e"
 else
-	echo "$0 [reboot|poweroff]" && exit 0
+	echo "$0 [reboot|poweroff|logout]" && exit 0
 fi
 
 zenity --question --title= --text="${MASSSAGE}" --no-wrap --default-cancel && ${RUN_CMD}
