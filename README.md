@@ -76,7 +76,11 @@ osd.bg.color: #FFFFFF
            "spacing": 5,
            "height": 40,
 	   "modules-left": ["wlr/taskbar"],
-           "modules-right": ["custom/weather", "tray", "clock", "image#logout", "image#reboot", "image#poweroff"],
+           "modules-right": ["custom/weather", "custom/separator", "tray", "clock", "image#logout", "image#reboot", "image#poweroff"],
+           "custom/separator": {
+                "format": " | ",
+                "interval": "once",
+           },
            "wlr/taskbar": {
                 "format": "{icon} {title}",
                 "icon-theme": "Adwaita",
